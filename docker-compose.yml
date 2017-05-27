@@ -1,0 +1,12 @@
+version: '3'
+services:
+  node:
+    build: .
+    ports:
+      - "80:8100"
+      - "80:8101"
+      - "8888:8100"
+      - "8100:8100"
+    volumes:
+      - .:/var/www/html/rcredits-mobile/
+    tty: true

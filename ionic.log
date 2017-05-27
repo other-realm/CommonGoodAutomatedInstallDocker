@@ -1,0 +1,8 @@
+******************************************************
+ Dependency warning - for the CLI to run correctly,      
+ it is highly recommended to install/upgrade the following:     
+
+ Please install your Cordova CLI to version  >=4.2.0 `npm install -g cordova`
+
+******************************************************
+Couldn't find ionic.config.json file. Are you in an Ionic project?
